@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psychic Game</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+ 
+<div class="container">
+    <div class="jumbotron" style="background-color:royalblue">
+        
+            <h1>Psychic Game</h1>
+            <p>Guess the car brand in lower case. </p>
+    </div>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" style="background-color:royalblue">
+        <h3 class="panel-title">Cars to Guess</h3>
+    </div>
+    <div class="panel-body" style="background-color:orange">
+        <h2 id="wordToGuess">_ _ _ _ _ _ _ _ _</h2>
+        <img src="assets/images/lambo.jpg" alt=Lamborghini>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-body" style="background-color:orangered">
+        Wrong Guesses:<span id="wrongGuesses"></span>
+    </div>
+</div>
+
+<div class="panel panel-default">
+        <div class="panel-body" style="background-color:orange">
+            Guesses Left: <span id="numGuesses"></span>
+        </div>
+    </div>
+
+<div class="panel panel-default">
+    <div class="panel-body" style="background-color:orange">
+        Wins: <span id="winCounter"></span>
+    </div>
+</div>
+
+<div class="panel panel-default">
+        <div class="panel-body" style="background-color:orangered">
+        Losses: <span id="lossCounter" ></span>
+        </div>
+    </div>
+
+
+
+
+</div> <!--end of container -->
+<!-- Link to javascript file -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
